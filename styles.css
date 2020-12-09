@@ -818,7 +818,7 @@ img {
 
   /** latest **/
 
-  .latest .latest-articles {
+  .latest-session .latest-articles {
     grid-template-columns: auto auto auto auto;
     gap: 2rem;
   }
@@ -919,7 +919,7 @@ img {
   }
 
   .sticky-logo {
-    background-image: url("./img/tnwlogo.png");
+    background-image: url("./img/tnw-logo.png");
     height: 3.5rem;
     width: 8rem;
     z-index: 119;
