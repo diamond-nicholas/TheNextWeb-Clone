@@ -318,7 +318,6 @@ img {
 .tile {
   margin-bottom: 1rem;
   grid-template-columns: 12rem auto;
-  -ms-grid-columns: 12rem auto;
   column-gap: 1.5rem;
 }
 
