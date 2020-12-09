@@ -512,7 +512,7 @@ img {
 .technology-item .image-container {
   margin-top: 1rem;
   width: 100%;
-  height: 22rem; /* this height is set for mobile version, it will be changed for desktop using a media query */
+  height: 22rem; 
 }
 
 .technology-item {
@@ -551,8 +551,6 @@ img {
   width: 50%;
   height: 10rem;
 }
-
-/* sub-images for tech item articles */
 
 .tech-item-article .num1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey.jpg");
@@ -610,4 +608,51 @@ img {
   line-height: 1.3rem;
   padding-bottom: 1.3rem;
   border-bottom: 1px solid #eee;
+}
+
+/* latest deals styles */
+
+.latest-deals-header {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.latest-header span {
+  color: #f42;
+}
+
+.latest-header span:hover {
+  color: #000;
+}
+
+.tile .ld1 {
+  background-image: url(./img/ld1.jpeg);
+}
+
+.tile .ld2 {
+  background-image: url(./img/ld2.jpg);
+}
+
+.tile .ld3 {
+  background-image: url(./img/ld3.jpg);
+}
+
+.tile .ld4 {
+  background-image: url(./img/ld4.jpg);
+}
+
+.tile .ld5 {
+  background-image: url(./img/ld5.jpg);
+}
+
+.tile .ld6 {
+  background-image: url(./img/ld6.jpg);
+}
+
+.tile .ld7 {
+  background-image: url(./img/ld7.jpg);
+}
+
+.tile .ld8 {
+  background-image: url(./img/ld8.jpg);
 }
