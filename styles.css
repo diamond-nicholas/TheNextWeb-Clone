@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Teko:wght@300;500&family=Ubuntu:wght@500&display=swap");
+ /* basic setup */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  width: 100%;
+}
+
+body {
+ width: 100%;
+ overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/** more preferred styles */
+.main {
+  overflow-x: hidden;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+ /* mobile nav */
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
+}
+
+.mobile-nav-head img {
+  float: left;
+  height: 48px;
+}
+
+.mobile-nav-head img:hover {
+  cursor: pointer;
+}
+
+.mobile-nav-icons {
+  position: relative;
+  float: right;
+  right: -10px;
+}
+
+.mobile-nav-icons .fas {
+  font-size: 1.6rem;
+  padding: 16px;
+  margin-right: 16px;
+  border-left: 1px solid #eee;
+}
+
+.mobile-nav-icons .fa-bars {
+  color: #f42;
+}
+
+.mobile-nav-icons .fa-search {
+  color: gray;
+}
+
+.mobile-nav-icons .fa-search:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* desktop nav view */
+
+.desktop-nav {
+  display: none;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.desktop-nav .nav-top {
+ display: none;
+ justify-content: space-between;
+ background-color: black;
+ color: gray;
+ padding: 0.5rem 0.5rem
+}
+
+.desktop-nav .nav-top:hover {
+ color: white;
+}
+
+.desktop-nav .nav-links {
+ padding: 0 0.5rem;
+}
+
+.menu {
+ display: none;
+  padding: 1rem 0.5rem;
+
+}
+.menu .menu-left {
+ color: gray;
+ display: flex;
+ font-size: 1rem;
+}
+
+.menu .menu-left:hover {
+ color: black;
+}
+
+.menu-left .menu-nav-link {
+ padding: 0.9rem 0.3rem;
+}
+
+.all .latest-news .img1 {
+ background-repeat: no-repeat;
+ width: 100%;
+ height: auto;
+}
+.img1 {
+ background-image: url('https://thenextweb.com/plugged/2020/12/08/supermarket-apple-watch-app-analysis-opinion/');
+}
