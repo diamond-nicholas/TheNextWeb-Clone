@@ -656,3 +656,87 @@ img {
 .tile .ld8 {
   background-image: url(./img/ld8.jpg);
 }
+
+/* footer */
+
+.footer {
+  width: 100%;
+}
+
+.footer-links {
+  background: #131313;
+}
+
+.footer-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.footer-links-social {
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.footer-links-social .fab,
+.footer-links-social .fas,
+.footer-links-social .far {
+  padding: 1rem;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.footer-links-social .fab:hover,
+.footer-links-social .fas:hover,
+.footer-links-social .far:hover {
+  background-color: #000;
+}
+
+.footer-menu {
+  justify-content: center;
+}
+
+.footer-menu li {
+  padding: 0 1rem;
+  font-family: "Teko", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.footer-menu li:hover {
+  color: #fff;
+}
+
+.footer-legal {
+  background-color: #000;
+  color: #aaa;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.legal-wrapper {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.legal-wrapper .logo-footer {
+  height: 1.8rem;
+}
+
+.legal-wrapper .legal-link {
+  align-items: center;
+  padding: 0.3rem 0;
+}
+
+.legal-link .svg-logo {
+  padding-left: 2px;
+}
