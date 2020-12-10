@@ -160,7 +160,8 @@ img {
 }
 
 .menu .menu-left a {
- padding: 0 .5rem;
+ padding: 1rem;
+ font-size: 2rem;
 }
 
 .menu .menu-left:hover {
@@ -770,7 +771,6 @@ img {
 
   .menu {
     display: flex;
-    margin: 0.1rem 0;
   }
 
   .mobile-nav {
@@ -779,7 +779,7 @@ img {
 
   .menu .menu-left {
     position: relative;
-    left: -53.5rem;
+    left: -48.7rem;
   }
 
   /* cover */
