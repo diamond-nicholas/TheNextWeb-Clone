@@ -31,10 +31,6 @@ Checkout the project on your web browser with the provided link.
 ### Install
 No installation required, simply right click on the index.html file and run it on your favorite browser.
 
-### Deployment
-Deploy on gh pages for testing purposes
-
-
 
 ## Authors
 
