@@ -346,6 +346,18 @@ img {
   color: gray;
 }
 
+.footer-menu li {
+  padding: 0 1rem;
+  font-family: "Teko", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.footer-menu li:hover {
+  color: #fff;
+}
+
 .latest-session .latest-articles .latest-articles-elements .story-article .story-caption li {
   padding-right: .5rem;
 }
@@ -478,6 +490,20 @@ img {
   line-height: 2rem;
   border-bottom: 1px solid rgba(255, 67, 34, 0.589);
   margin-bottom: 1.5rem;
+}
+
+
+.latest-header , .deals a{
+  color: #f42;
+}
+
+.latest-header ,
+.deals a:hover {
+  color: #000;
+}
+
+.legal-wrapper .legal-link a {
+  color: white;
 }
 
 .funding-item .funding-tags a:hover {
@@ -649,17 +675,9 @@ img {
 
 /* latest deals styles */
 
-.latest-deals-header {
+.latest-deals-header  {
   justify-content: space-between;
   margin-bottom: 2rem;
-}
-
-.latest-header , .deals a{
-  color: #f42;
-}
-
-.latest-header , .deals a:hover {
-  color: #000;
 }
 
 .tile .ld1 {
@@ -694,7 +712,7 @@ img {
   background-image: url(./img/ld8.jpg);
 }
 
-/* The footer section*/
+/* The footer section */
 
 .footer {
   width: 100%;
@@ -738,18 +756,6 @@ img {
   justify-content: center;
 }
 
-.footer-menu li {
-  padding: 0 1rem;
-  font-family: "Teko", sans-serif;
-  font-size: 1.7rem;
-  font-weight: 300;
-  color: #aaa;
-}
-
-.footer-menu li:hover {
-  color: #fff;
-}
-
 .footer-legal {
   background-color: #000;
   color: #aaa;
@@ -768,10 +774,6 @@ img {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-}
-
-.legal-wrapper .legal-link a {
-  color: white;
 }
 
 .legal-wrapper .logo-footer {
@@ -926,7 +928,7 @@ img {
   }
 
   .technology-container .cover-item-title h3 h5 a {
-  color: white;
+    color: white;
 }
 }
 /* setting media queries for tablet screens */
