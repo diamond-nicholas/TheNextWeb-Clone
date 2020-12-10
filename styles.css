@@ -168,11 +168,11 @@ img {
 
 .menu .menu-left a {
  padding: 1rem;
- font-size: 2rem;
+   font-size: 2rem;
 }
 
 .menu .menu-left:hover {
- color: black;
+ color:   black;
 }
 
 .all .latest-news .img1 {
