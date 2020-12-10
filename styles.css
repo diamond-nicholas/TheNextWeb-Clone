@@ -343,6 +343,15 @@ img {
   column-gap: 1.5rem;
 }
 
+.latest-session .latest-articles .latest-articles-elements .story-article .story-caption {
+  display: flex;
+  color: gray;
+}
+
+.latest-session .latest-articles .latest-articles-elements .story-article .story-caption li {
+  padding-right: .5rem;
+}
+
 .tile .latest-image {
   background-repeat: no-repeat;
   width: 100%;
@@ -491,6 +500,16 @@ img {
   margin-bottom: 1.3rem;
 }
 
+.technology-container .technology-item .article-image-container .cover-item-title .author-time {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+}
+
+.technology-container .technology-item .article-image-container .cover-item-title  {
+  color: white;
+  font-weight: bolder;
+}
 
 .technology-container .hard-fork {
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fslackstock.jpg&signature=563912982746faa3ac299cf1576a3aa3");
@@ -741,11 +760,20 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.footer-legal .logo-footer {
+  width: 6rem;
+  min-height: 5rem;
+}
+
 .legal-wrapper {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 3rem;
+}
+
+.legal-wrapper .legal-link a {
+  color: white;
 }
 
 .legal-wrapper .logo-footer {
@@ -898,6 +926,10 @@ img {
   .technology-container .tech-item-article {
     top: 0.2rem;
   }
+
+  .technology-container .cover-item-title h3 h5 a {
+  color: white;
+}
 }
 /* setting media queries for tablet screens */
 
