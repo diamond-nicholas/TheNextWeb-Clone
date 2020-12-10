@@ -11,12 +11,12 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML5
-- CSS3#
+- CSS3
 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://diamond-nicholas.github.io/TheNextWeb-Clone/)
 
 
 ## Getting Started
