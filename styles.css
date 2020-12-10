@@ -113,11 +113,9 @@ img {
   width: 100%;
   top: 0;
   z-index: 10;
-  /* justify-content: space-between; */
 }
 
 .desktop-nav .nav-top {
- /* display: none; */
  justify-content: space-between;
  background-color: black;
  color: gray;
@@ -656,11 +654,11 @@ img {
   margin-bottom: 2rem;
 }
 
-.latest-header span {
+.latest-header , .deals a{
   color: #f42;
 }
 
-.latest-header span:hover {
+.latest-header , .deals a:hover {
   color: #000;
 }
 
