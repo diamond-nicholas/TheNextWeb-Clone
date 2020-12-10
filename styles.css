@@ -111,15 +111,18 @@ img {
   width: 100%;
   top: 0;
   z-index: 10;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .desktop-nav .nav-top {
- display: none;
+ /* display: none; */
  justify-content: space-between;
  background-color: black;
  color: gray;
- padding: 0.5rem 0.5rem
+ padding: 0.5rem 0.5rem;
+ font-size: 1rem;
+ line-height: 2.5rem;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .desktop-nav .nav-top:hover {
@@ -132,9 +135,25 @@ img {
 
 .menu {
  display: none;
-  padding: 1rem 0.5rem;
+ padding: 1rem 0.5rem;
+  position: sticky !important;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  color: gray;
+  background:white;
+  z-index: 10;
 
 }
+
+.menu .top-search {
+  padding-right: 1.5rem;
+  border-left: 1px solid #eee;
+}
+
 .menu .menu-left {
  color: gray;
  display: flex;
