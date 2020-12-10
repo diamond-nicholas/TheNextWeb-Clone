@@ -14,114 +14,114 @@ html, body {
 }
 
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a {
-  text-decoration: none;
-  cursor: pointer;
-  color: inherit;
+   text-decoration: none;
+   cursor: pointer;
+   color: inherit;
 }
 
 ul li {
-  list-style-type: none;
+   list-style-type: none;
 }
 
 ul {
-  list-style-type: none;
+   list-style-type: none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+   max-width: 100%;
+   height: auto;
 }
 
 /** more preferred styles */
 .main {
-  overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 .background {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
 .grid {
-  display: -ms-grid;
-  display: grid;
+   display: -ms-grid;
+   display: grid;
 }
 
 .flex {
-  display: flex;
+   display: flex;
 }
 
 .block {
-  display: block;
+   display: block;
 }
 
  /* mobile nav */
 
 .mobile-nav {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 100%;
-  height: 48px;
-  background-color: white;
-  box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
+   position: fixed;
+   top: 0;
+   z-index: 100;
+   width: 100%;
+   height: 48px;
+   background-color: white;
+   box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
 }
 
 .mobile-nav-head img {
-  float: left;
-  height: 48px;
+   float: left;
+   height: 48px;
 }
 
 .mobile-nav-head img:hover {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 .mobile-nav-icons {
-  position: relative;
-  float: right;
-  right: -10px;
+   position: relative;
+   float: right;
+   right: -10px;
 }
 
 .mobile-nav-icons .fas {
-  font-size: 1.6rem;
-  padding: 16px;
-  margin-right: 16px;
-  border-left: 1px solid #eee;
+   font-size: 1.6rem;
+   padding: 16px;
+   margin-right: 16px;
+   border-left: 1px solid #eee;
 }
 
 .mobile-nav-icons .fa-bars {
-  color: #f42;
+   color: #f42;
 }
 
 .mobile-nav-icons .fa-search {
-  color: gray;
+   color: gray;
 }
 
 .mobile-nav-icons .fa-search:hover {
-  color: #000;
-  cursor: pointer;
+   color: #000;
+   cursor: pointer;
 }
 
 /* desktop nav view */
 
 .desktop-nav {
-  display: none;
-  width: 100%;
-  top: 0;
-  z-index: 10;
+   display: none;
+   width: 100%;
+   top: 0;
+   z-index: 10;
 }
 
 .desktop-nav .nav-top {
- justify-content: space-between;
- background-color: black;
- color: gray;
- padding: 0.5rem 0.5rem;
- font-size: 1rem;
- line-height: 2.5rem;
+   justify-content: space-between;
+   background-color: black;
+   color: gray;
+   padding: 0.5rem 0.5rem;
+   font-size: 1rem;
+   line-height: 2.5rem;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -134,47 +134,47 @@ img {
 }
 
 .menu {
-  display: none;
-  padding: 1rem 0.5rem;
-  position: sticky !important;
-  top: 0;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Teko", sans-serif;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-  color: gray;
-  background: white;
-  z-index: 10;
+   display: none;
+   padding: 1rem 0.5rem;
+   position: sticky !important;
+   top: 0;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "Teko", sans-serif;
+   font-size: 1.5rem;
+   line-height: 3.5rem;
+   color: gray;
+   background: white;
+   z-index: 10;
 }
 
 .menu .top-search {
-  padding-right: 1.5rem;
-  border-left: 1px solid #eee;
+   padding-right: 1.5rem;
+   border-left: 1px solid #eee;
 }
 
 .menu .menu-left {
-  color: gray;
-  display: flex;
-  font-size: 1rem;
+   color: gray;
+   display: flex;
+   font-size: 1rem;
 }
 
 .deals a {
-  color: #f42;
+   color: #f42;
 }
 
 .technology-item h2 a {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  color: #f42;
-  margin-bottom: 1.3rem;
+   font-family: "Ubuntu", sans-serif;
+   font-weight: bold;
+   color: #f42;
+   margin-bottom: 1.3rem;
 }
 
 .latest-session h2 a {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  color: #f42;
-  margin-bottom: 1.3rem;
+   font-family: "Ubuntu", sans-serif;
+   font-weight: bold;
+   color: #f42;
+   margin-bottom: 1.3rem;
 }
 
 .menu .menu-left a {
@@ -198,595 +198,596 @@ img {
 
 /* Main Cover board */
 .board {
-  padding-top: 60px;
+   padding-top: 60px;
 }
 
 .board-items {
-  position: relative;
-  padding: 4px;
+   position: relative;
+   padding: 4px;
 }
 
 .image-container {
-  position: relative;
-  width: 100%;
-  height: 220px;
+   position: relative;
+   width: 100%;
+   height: 220px;
 }
 
 .board-items .image-container,
 .technology-item .image-container {
-  transition: background-color 0.4s ease;
-  cursor: pointer;
+   transition: background-color 0.4s ease;
+   cursor: pointer;
 }
 
 .board-items .board-image,
 .technology-item .cover-image {
-  width: 100%;
-  height: 220px;
-  z-index: 1;
+   width: 100%;
+   height: 220px;
+   z-index: 1;
 }
 
 .board-items .study {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/cyberlocks-730x422.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/cyberlocks-730x422.jpg");
 }
 
 .board-items .cloud {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1-796x417.png");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1-796x417.png");
 }
 
 .board-items .javascript {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-1-796x417.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-1-796x417.jpg");
 }
 
 .board-gradient {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
-  width: 100%;
-  height: 220px;
-  position: absolute;
-  top: 0;
-  z-index: 2;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+   width: 100%;
+   height: 220px;
+   position: absolute;
+   top: 0;
+   z-index: 2;
 }
 
 .board-items .board-item-title {
-  position: absolute;
-  bottom: 20px;
-  left: 15px;
-  z-index: 3;
-  cursor: pointer;
+   position: absolute;
+   bottom: 20px;
+   left: 15px;
+   z-index: 3;
+   cursor: pointer;
 }
 
 .board-item-title h2,
 .board-item-title h5 {
-  font-family: "Teko", sans-serif;
-  font-size: 1.5rem;
-  color: #fff;
+   font-family: "Teko", sans-serif;
+   font-size: 1.5rem;
+   color: #fff;
 }
 
 .baord-item-title h4,
 .board-item-title h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  color: #fff;
-  line-height: 2rem;
+   font-family: "Lato", sans-serif;
+   font-weight: 900;
+   font-size: 2rem;
+   color: #fff;
+   line-height: 2rem;
 }
 
 .board-item-title ul {
-  color: hsla(0, 0%, 100%, 0.6);
-  font-size: 1.2rem;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.5rem;
+   color: hsla(0, 0%, 100%, 0.6);
+   font-size: 1.2rem;
+   font-family: Helvetica, Arial, sans-serif;
+   line-height: 1.5rem;
 }
 
 .board-item-title .author-link:hover {
-  color: #eee;
-  font-size: 0.3rem;
+   color: #eee;
+   font-size: 0.3rem;
 }
 
 .board-item-title i {
-  padding: 0.5rem 0.5rem;
+   padding: 0.5rem 0.5rem;
 }
 
 .article-info {
-  color: white;
-  font-size: 0.3rem;
-  font-family: Helvetica, Arial, sans-serif;
+   color: white;
+   font-size: 0.3rem;
+   font-family: Helvetica, Arial, sans-serif;
 }
 
 .board-item-title .article-info {
-  display: flex;
-  padding: 1rem 0;
-  align-items: center;
+   display: flex;
+   padding: 1rem 0;
+   align-items: center;
 }
 
 .board-items .white-logo {
-  display: none;
+   display: none;
 }
 
 .article-content {
-  color: white;
-  font-size: 1rem;
-  font-family: Helvetica, Arial, sans-serif;
+   color: white;
+   font-size: 1rem;
+   font-family: Helvetica, Arial, sans-serif;
 }
 
 /* latest news styles */
+
 .all .latest-session {
-  font-size: 1.6rem;
-  margin: 1.6rem;
+   font-size: 1.6rem;
+   margin: 1.6rem;
 }
 
 .latest-session .latest-articles {
-  flex-direction: column;
+   flex-direction: column;
 }
 
 .latest-session .latest-news {
-  margin-bottom: 2rem;
+   margin-bottom: 2rem;
 }
 
 .latest-header {
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  color: #f42;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   color: #f42;
 }
 
 .latest-header span {
-  color: #f42;
+   color: #f42;
 }
 
 .latest-header span:hover {
-  color: #000;
+   color: #000;
 }
 
 .all .orange-title {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  color: #f42;
-  margin-bottom: 1.3rem;
+   font-family: "Ubuntu", sans-serif;
+   font-weight: bold;
+   color: #f42;
+   margin-bottom: 1.3rem;
 }
 
 .all .orange-title:hover {
-  color: #000;
+   color: #000;
 }
 
 .tile {
-  margin-bottom: 1rem;
-  grid-template-columns: 12rem auto;
-  column-gap: 1.5rem;
+   margin-bottom: 1rem;
+   grid-template-columns: 12rem auto;
+   column-gap: 1.5rem;
 }
 
 .latest-session .latest-articles .latest-articles-elements .story-article .story-caption {
-  display: flex;
-  color: gray;
+   display: flex;
+   color: gray;
 }
 
 .footer-menu li {
-  padding: 0 1rem;
-  font-family: "Teko", sans-serif;
-  font-size: 1.7rem;
-  font-weight: 300;
-  color: #aaa;
+   padding: 0 1rem;
+   font-family: "Teko", sans-serif;
+   font-size: 1.7rem;
+   font-weight: 300;
+   color: #aaa;
 }
 
 .footer-menu li:hover {
-  color: #fff;
+   color: #fff;
 }
 
 .latest-session .latest-articles .latest-articles-elements .story-article .story-caption li {
-  padding-right: 0.5rem;
+   padding-right: 0.5rem;
 }
 
 .tile .latest-image {
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 9rem;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 9rem;
 }
 
 .tile .img-one {
-  background-image: url(./img/Pornhub.jpg);
+   background-image: url(./img/Pornhub.jpg);
 }
 
 .tile .img-two {
-  background-image: url(./img/l2.jpg);
+   background-image: url(./img/l2.jpg);
 }
 
 .tile .img-three {
-  background-image: url(./img/l3.jpg);
+   background-image: url(./img/l3.jpg);
 }
 
 .tile .img-four {
-  background-image: url(./img/l4.jpg);
+   background-image: url(./img/l4.jpg);
 }
 
 .tile .img-five {
-  background-image: url(./img/l5.jpg);
+   background-image: url(./img/l5.jpg);
 }
 
 .tile .img-six {
-  background-image: url(./img/l6.png);
+   background-image: url(./img/l6.png);
 }
 
 .tile .img-seven {
-  background-image: url(./img/l7.png);
+   background-image: url(./img/l7.png);
 }
 
 .tile .img-eight {
-  background-image: url(./img/l8.png);
+   background-image: url(./img/l8.png);
 }
 
 /* latest funding styles */
 
 .latest-funding {
-  font-size: 1.6rem;
-  font-family: Helvetica, Arial, sans-serif;
-  padding: 8px;
-  margin: 8px;
+   font-size: 1.6rem;
+   font-family: Helvetica, Arial, sans-serif;
+   padding: 8px;
+   margin: 8px;
 }
 
 .latest-funding header {
-  flex-direction: column;
+   flex-direction: column;
 }
 
 .latest-funding .funding-header-links {
-  flex-direction: column;
+   flex-direction: column;
 }
 
 .latest-funding .header-link {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80%;
-  font-weight: 100;
-  padding-top: 1.3rem;
-  line-height: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 80%;
+   font-weight: 100;
+   padding-top: 1.3rem;
+   line-height: 0;
 }
 
 .funding-container {
-  flex-flow: wrap;
+   flex-flow: wrap;
 }
 
 .funding-container .last-funding-item {
-  display: none;
+   display: none;
 }
 
 .funding-item {
-  padding: 8px 0;
+   padding: 8px 0;
 }
 
 .funding-item .funding-header {
-  background: rgba(255, 68, 34, 0.08);
-  height: 9rem;
+   background: rgba(255, 68, 34, 0.08);
+   height: 9rem;
 }
 
 .funding-item .fund-item-titles {
-  background: #f42;
-  color: #fff;
-  padding: 1rem 1.5rem 1rem 7.5rem;
+   background: #f42;
+   color: #fff;
+   padding: 1rem 1.5rem 1rem 7.5rem;
 }
 
 .funding-item .funding-logo {
-  width: 60px;
-  height: 60px;
-  max-width: 60px;
-  max-height: 60px;
-  margin: 1rem;
-  z-index: 5;
-  position: relative;
-  top: -43px;
+   width: 60px;
+   height: 60px;
+   max-width: 60px;
+   max-height: 60px;
+   margin: 1rem;
+   z-index: 5;
+   position: relative;
+   top: -43px;
 }
 
 .funding-item .funding-money {
-  position: relative;
-  top: -7rem;
-  left: 7.5rem;
-  height: auto;
+   position: relative;
+   top: -7rem;
+   left: 7.5rem;
+   height: auto;
 }
 
 .funding-item .funding-money h5 {
-  font-family: "Teko", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #555;
+   font-family: "Teko", sans-serif;
+   font-size: 1.5rem;
+   font-weight: 300;
+   color: #555;
 }
 
 .funding-item .fund-item-text {
-  font-size: 1.2rem;
-  color: #555;
+   font-size: 1.2rem;
+   color: #555;
 }
 
 .funding-item .funding-tags i {
-  padding-right: 1rem;
-  color: #000;
+   padding-right: 1rem;
+   color: #000;
 }
 
 .funding-item .funding-tags {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  line-height: 2rem;
-  border-bottom: 1px solid rgba(255, 67, 34, 0.589);
-  margin-bottom: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   padding: 1.5rem;
+   line-height: 2rem;
+   border-bottom: 1px solid rgba(255, 67, 34, 0.589);
+   margin-bottom: 1.5rem;
 }
 
 .latest-header,
 .deals a:hover {
-  color: #000;
+   color: #000;
 }
 
 .legal-wrapper .legal-link a {
-  color: white;
+   color: white;
 }
 
 .funding-item .funding-tags a:hover {
-  color: #000;
+   color: #000;
 }
 
 /* styles for technology card */
 
 .technology-container {
-  font-size: 1.6rem;
-  margin: 1.6rem;
+   font-size: 1.6rem;
+   margin: 1.6rem;
 }
 
 .technology-container .technology-item .article-image-container .cover-item-title .author-time {
-  display: flex;
-  color: gray;
-  font-weight: bold;
+   display: flex;
+   color: gray;
+   font-weight: bold;
 }
 
 .technology-item .cover-item-title {
-  position: relative;
-  bottom: 13rem;
-  left: 1.5rem;
-  z-index: 3;
-  cursor: pointer;
-  padding: 1rem 2rem 1rem 0;
+   position: relative;
+   bottom: 13rem;
+   left: 1.5rem;
+   z-index: 3;
+   cursor: pointer;
+   padding: 1rem 2rem 1rem 0;
 }
 
 .technology-container .technology-item .article-image-container .cover-item-title {
-  color: white;
-  font-weight: bolder;
+   color: white;
+   font-weight: bolder;
 }
 
 .technology-container .hard-fork {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fslackstock.jpg&signature=563912982746faa3ac299cf1576a3aa3");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fslackstock.jpg&signature=563912982746faa3ac299cf1576a3aa3");
 }
 
 .technology-container .apps {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnag_3e684c11.png&signature=d9f5af92fb7d65d0922d5f171b63d57b");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnag_3e684c11.png&signature=d9f5af92fb7d65d0922d5f171b63d57b");
 }
 
 .technology-container .gear {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnapdragon-888-Mockup.png&signature=c6208e7176cdd83eaa0e27427afa9bdc");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnapdragon-888-Mockup.png&signature=c6208e7176cdd83eaa0e27427afa9bdc");
 }
 
 .technology-container .tech {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue-796x398.gif");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue-796x398.gif");
 }
 
 .technology-container .creative {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-796x417.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-796x417.jpg");
 }
 
 .technology-container .podium {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fgoogle-logo-podium.png&signature=7508777eee1fb9a39a65db1227be0b4a");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fgoogle-logo-podium.png&signature=7508777eee1fb9a39a65db1227be0b4a");
 }
 
 .technology-container .insights {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fmeeting-leader-startup-gq.png&signature=2c9db485eca73eb5dd338d5a7bd93df3");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fmeeting-leader-startup-gq.png&signature=2c9db485eca73eb5dd338d5a7bd93df3");
 }
 
 .technology-container .launch {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fhummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg&signature=801c1c148b502bad4b7ba67bc6417c3a");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fhummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg&signature=801c1c148b502bad4b7ba67bc6417c3a");
 }
 
 .technology-container .distract {
-  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F11%2Flucid-air-configurator-ray-tracing-car-future-ev-zerolight.jpg&signature=3a8658003cf3f92188923ab0528c18fb");
+   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F11%2Flucid-air-configurator-ray-tracing-car-future-ev-zerolight.jpg&signature=3a8658003cf3f92188923ab0528c18fb");
 }
 
 .article-image-container,
 .technology-item .image-container {
-  margin-top: 1rem;
-  width: 100%;
-  height: 22rem;
+   margin-top: 1rem;
+   width: 100%;
+   height: 22rem;
 }
 
 .technology-item {
-  margin-bottom: 1rem;
+   margin-bottom: 1rem;
 }
 
 .tech-item-article {
-  position: relative;
-  top: 0.5rem;
-  width: 100%;
+   position: relative;
+   top: 0.5rem;
+   width: 100%;
 }
 
 .tech-item-article header {
-  padding: 1rem;
-  color: #f42;
-  background: #fff4f2;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+   padding: 1rem;
+   color: #f42;
+   background: #fff4f2;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
 }
 
 .tech-item-article .latest-title {
-  font-family: "Teko", sans-serif;
+   font-family: "Teko", sans-serif;
 }
 
 .tech-item-article .sub-image {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1.png");
-  width: 50%;
-  height: 10rem;
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1.png");
+   width: 50%;
+   height: 10rem;
 }
 
 .tech-item-article .num1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey.jpg");
 }
 
 .tech-item-article .num2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/header-image-spotify-2020-wrapped.png");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/header-image-spotify-2020-wrapped.png");
 }
 
 .tech-item-article .num3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Samsung-Galaxy-Note-8.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Samsung-Galaxy-Note-8.jpg");
 }
 
 .tech-item-article .num4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-1.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-1.jpg");
 }
 
 .tech-item-article .num5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png");
 }
 
 .tech-item-article .num6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq.png");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq.png");
 }
 
 .tech-item-article .num7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/slackstock.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/slackstock.jpg");
 }
 
 .tech-item-article .num8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg");
 }
 
 .tech-item-article .num9 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/meeting-leader-startup-gq-516x270.png");
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/meeting-leader-startup-gq-516x270.png");
 }
 
 /* lists below each tech item article */
 
 .styled-list li::before {
-  content: "•";
-  color: #f42;
-  position: relative;
-  top: 2rem;
+   content: "•";
+   color: #f42;
+   position: relative;
+   top: 2rem;
 }
 
 .styled-list .styled-list-item {
-  margin-left: 2rem;
-  display: list-item;
-  list-style-position: outside;
-  font-family: Arial, sans-serif;
-  color: #555;
-  font-size: 1.2rem;
-  font-weight: 200;
-  line-height: 1.3rem;
-  padding-bottom: 1.3rem;
-  border-bottom: 1px solid #eee;
+   margin-left: 2rem;
+   display: list-item;
+   list-style-position: outside;
+   font-family: Arial, sans-serif;
+   color: #555;
+   font-size: 1.2rem;
+   font-weight: 200;
+   line-height: 1.3rem;
+   padding-bottom: 1.3rem;
+   border-bottom: 1px solid #eee;
 }
 
 /* latest deals styles */
 
 .latest-deals-header {
-  justify-content: space-between;
-  margin-bottom: 2rem;
+   justify-content: space-between;
+   margin-bottom: 2rem;
 }
 
 .tile .ld1 {
-  background-image: url(./img/ld1.jpeg);
+   background-image: url(./img/ld1.jpeg);
 }
 
 .tile .ld2 {
-  background-image: url(./img/ld2.jpg);
+   background-image: url(./img/ld2.jpg);
 }
 
 .tile .ld3 {
-  background-image: url(./img/ld3.jpg);
+   background-image: url(./img/ld3.jpg);
 }
 
 .tile .ld4 {
-  background-image: url(./img/ld4.jpg);
+   background-image: url(./img/ld4.jpg);
 }
 
 .tile .ld5 {
-  background-image: url(./img/ld5.jpg);
+   background-image: url(./img/ld5.jpg);
 }
 
 .tile .ld6 {
-  background-image: url(./img/ld6.jpg);
+   background-image: url(./img/ld6.jpg);
 }
 
 .tile .ld7 {
-  background-image: url(./img/ld7.jpg);
+   background-image: url(./img/ld7.jpg);
 }
 
 .tile .ld8 {
-  background-image: url(./img/ld8.jpg);
+   background-image: url(./img/ld8.jpg);
 }
 
 /* The footer section */
 
 .footer {
-  width: 100%;
+   width: 100%;
 }
 
 .footer-links {
-  background: #131313;
+   background: #131313;
 }
 
 .footer-wrapper {
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2rem;
 }
 
 .footer-links-social {
-  justify-content: center;
-  text-align: center;
-  margin: 2rem 0;
+   justify-content: center;
+   text-align: center;
+   margin: 2rem 0;
 }
 
 .footer-links-social .fab,
 .footer-links-social .fas,
 .footer-links-social .far {
-  padding: 1rem;
-  margin: 0.3rem;
-  font-size: 1.5rem;
-  color: #fff;
-  border: 2px solid #333;
-  border-radius: 50%;
-  background-color: #333;
+   padding: 1rem;
+   margin: 0.3rem;
+   font-size: 1.5rem;
+   color: #fff;
+   border: 2px solid #333;
+   border-radius: 50%;
+   background-color: #333;
 }
 
 .footer-links-social .fab:hover,
 .footer-links-social .fas:hover,
 .footer-links-social .far:hover {
-  background-color: #000;
+   background-color: #000;
 }
 
 .footer-menu {
-  justify-content: center;
+   justify-content: center;
 }
 
 .footer-legal {
-  background-color: #000;
-  color: #aaa;
-  font-size: 1.2rem;
-  line-height: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
+   background-color: #000;
+   color: #aaa;
+   font-size: 1.2rem;
+   line-height: 1.2rem;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-legal .logo-footer {
-  width: 6rem;
-  min-height: 5rem;
+   width: 6rem;
+   min-height: 5rem;
 }
 
 .legal-wrapper {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   padding: 3rem;
 }
 
 .legal-wrapper .logo-footer {
-  height: 1.8rem;
+   height: 1.8rem;
 }
 
 .legal-wrapper .legal-link {
-  align-items: center;
-  padding: 0.3rem 0;
+   align-items: center;
+   padding: 0.3rem 0;
 }
 
 .legal-link .svg-logo {
-  padding-left: 2px;
+    padding-left: 2px;
 }
 
 /** media query for desktop **/
@@ -871,7 +872,7 @@ img {
   /** latest **/
 
   .latest-session .latest-articles {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, auto);
     gap: 2rem;
   }
 
@@ -919,7 +920,7 @@ img {
   /** Technology Container ***/
 
   .technology-container {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
     gap: 2rem;
   }
 
@@ -928,7 +929,7 @@ img {
   }
 
   .technology-container .cover-item-title h3 h5 a {
-      color: white;
+    color: white;
 } 
 
     }
