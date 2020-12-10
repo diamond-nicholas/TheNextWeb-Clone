@@ -166,23 +166,34 @@ img {
   margin-bottom: 1.3rem;
 }
 
+.deals a {
+  color: #f42;
+}
+
+.latest-session h2 a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 1.3rem;
+}
+
 .menu .menu-left a {
  padding: 1rem;
    font-size: 2rem;
 }
 
 .menu .menu-left:hover {
- color:   black;
-}
-
-.all .latest-news .img1 {
- background-repeat: no-repeat;
- width: 100%;
- height: auto;
+   color: black;
 }
 
 .img1 {
- background-image: url('https://thenextweb.com/plugged/2020/12/08/supermarket-apple-watch-app-analysis-opinion/');
+   background-image: url('https://thenextweb.com/plugged/2020/12/08/supermarket-apple-watch-app-analysis-opinion/');
+}
+
+.all .latest-news .img1 {
+   background-repeat: no-repeat;
+   width: 100%;
+   height: auto;
 }
 
 /* Main Cover board */
@@ -275,6 +286,12 @@ img {
   padding: 0.5rem 0.5rem;
 }
 
+.article-info {
+  color: white;
+  font-size: 0.3rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .board-item-title .article-info {
   display: flex;
   padding: 1rem 0;
@@ -288,12 +305,6 @@ img {
 .article-content {
   color: white;
   font-size: 1rem;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.article-info {
-  color: white;
-  font-size: 0.3rem;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -322,13 +333,6 @@ img {
 
 .latest-header span:hover {
   color: #000;
-}
-
-.latest-session h2 a {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  color: #f42;
-  margin-bottom: 1.3rem;
 }
 
 .all .orange-title {
@@ -366,7 +370,7 @@ img {
 }
 
 .latest-session .latest-articles .latest-articles-elements .story-article .story-caption li {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .tile .latest-image {
@@ -499,12 +503,11 @@ img {
   margin-bottom: 1.5rem;
 }
 
-
-.latest-header , .deals a{
+.latest-header {
   color: #f42;
 }
 
-.latest-header ,
+.latest-header,
 .deals a:hover {
   color: #000;
 }
@@ -928,8 +931,9 @@ img {
   }
 
   .technology-container .cover-item-title h3 h5 a {
-    color: white;
-}  
+      color: white;
+} 
+
 }
 
 /* setting media queries for tablet screens */
