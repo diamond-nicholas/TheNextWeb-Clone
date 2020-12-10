@@ -850,7 +850,7 @@ img {
     grid-template-rows: auto auto;
   }
 
-  .title .latest-image {
+  .tile .latest-image {
     height: 20rem;
     margin-bottom: 1rem;
   }
