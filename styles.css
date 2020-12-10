@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
+  font-size: 62.5%;
   width: 100%;
 }
 
 body {
- width: 100%;
  overflow-x: hidden;
 }
 
@@ -134,8 +134,8 @@ img {
 }
 
 .menu {
- display: none;
- padding: 1rem 0.5rem;
+  display: none;
+  padding: 1rem 0.5rem;
   position: sticky !important;
   top: 0;
   justify-content: space-between;
@@ -146,7 +146,6 @@ img {
   color: gray;
   background:white;
   z-index: 10;
-
 }
 
 .menu .top-search {
@@ -160,12 +159,12 @@ img {
  font-size: 1rem;
 }
 
-.menu .menu-left:hover {
- color: black;
+.menu .menu-left a {
+ padding: 0 .5rem;
 }
 
-.menu-left .menu-nav-link {
- padding: 0.9rem 0.3rem;
+.menu .menu-left:hover {
+ color: black;
 }
 
 .all .latest-news .img1 {
@@ -173,6 +172,7 @@ img {
  width: 100%;
  height: auto;
 }
+
 .img1 {
  background-image: url('https://thenextweb.com/plugged/2020/12/08/supermarket-apple-watch-app-analysis-opinion/');
 }
@@ -761,11 +761,16 @@ img {
 /** media query for desktop **/
 @media only screen and (min-width: 1024px) {
   .desktop-nav {
-    display: block;
+    display: inline-block;
+  }
+
+  .desktop-nav .nav-top {
+    display: flex;
   }
 
   .menu {
     display: flex;
+    margin: 0.1rem 0;
   }
 
   .mobile-nav {
@@ -830,7 +835,7 @@ img {
   /** wrapper */
 
   .all {
-    margin: 2rem 20rem;
+    margin: 2rem 10rem;
   }
 
   /** latest **/
