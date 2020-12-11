@@ -372,8 +372,12 @@ img {
   color: #fff;
 }
 
-.latest-session .latest-articles .latest-articles-elements .story-article .story-caption 
-  li {
+.latest-session
+.latest-articles
+.latest-articles-elements
+.story-article
+.story-caption
+li {
   padding-right: 0.5rem;
 }
 
