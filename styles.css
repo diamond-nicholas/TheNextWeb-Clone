@@ -356,10 +356,10 @@ img {
 }
 
 .latest-session
-  .latest-articles
-  .latest-articles-elements
-  .story-article
-  .story-caption {
+.latest-articles
+.latest-articles-elements
+.story-article
+.story-caption {
   display: flex;
   color: gray;
 }
@@ -377,10 +377,10 @@ img {
 }
 
 .latest-session
-  .latest-articles
-  .latest-articles-elements
-  .story-article
-  .story-caption
+.latest-articles
+.latest-articles-elements
+.story-article
+.story-caption
   li {
   padding-right: 0.5rem;
 }
@@ -536,10 +536,10 @@ img {
 }
 
 .technology-container
-  .technology-item
-  .article-image-container
-  .cover-item-title
-  .author-time {
+.technology-item
+.article-image-container
+.cover-item-title
+.author-time {
   display: flex;
   color: gray;
   font-weight: bold;
@@ -555,9 +555,9 @@ img {
 }
 
 .technology-container
-  .technology-item
-  .article-image-container
-  .cover-item-title {
+.technology-item
+.article-image-container
+.cover-item-title {
   color: white;
   font-weight: bolder;
 }
@@ -859,7 +859,8 @@ img {
 
   .cover-one .board-gradient {
     height: 448px;
-    background-image: linear-gradient(
+    background-image: 
+    linear-gradient(
       rgba(235, 15, 15, 0.842),
       rgba(0, 0, 0, 0.952)
     );
@@ -1027,7 +1028,8 @@ img {
 
   .cover-one .board-gradient {
     height: 448px;
-    background-image: linear-gradient(
+    background-image: 
+    linear-gradient(
       rgba(235, 15, 15, 0.842),
       rgba(0, 0, 0, 0.952)
     );
