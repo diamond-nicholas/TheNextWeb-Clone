@@ -844,10 +844,10 @@ img {
   .cover-one .board-gradient {
     height: 448px;
     background-image: 
-    linear-gradient(
-      rgba(235, 15, 15, 0.842),
-      rgba(0, 0, 0, 0.952)
-    );
+      linear-gradient(
+         rgba(235, 15, 15, 0.842),
+         rgba(0, 0, 0, 0.952)
+      );
   }
 
   .cover-one .board-item-title {
