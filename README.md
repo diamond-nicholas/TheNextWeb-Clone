@@ -4,7 +4,7 @@
 
 ### Desktop version
 
-![screenshot](https://github.com/diamond-nicholas/TheNextWeb-Clone/blob/workspace/img/Desktop_version.png)
+![screenshot](https://github.com/diamond-nicholas/TheNextWeb-Clone/blob/workspace/img/Desktop_View_Update.png)
 
 Additional description about the project and its features.
 
