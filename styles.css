@@ -845,8 +845,8 @@ img {
     height: 448px;
     background-image:
       linear-gradient(
-         rgba(235, 15, 15, 0.842),
-         rgba(0, 0, 0, 0.952)
+        rgba(235, 15, 15, 0.842),
+        rgba(0, 0, 0, 0.952)
       );
   }
 
@@ -1012,7 +1012,7 @@ img {
 
   .cover-one .board-gradient {
     height: 448px;
-      background-image:
+    background-image:
       linear-gradient(
         rgba(235, 15, 15, 0.842),
         rgba(0, 0, 0, 0.952)
