@@ -355,11 +355,7 @@ img {
   column-gap: 1.5rem;
 }
 
-.latest-session
-.latest-articles
-.latest-articles-elements
-.story-article
-.story-caption {
+.latest-session .latest-articles .latest-articles-elements .story-article .story-caption {
   display: flex;
   color: gray;
 }
