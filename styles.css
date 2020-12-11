@@ -526,11 +526,7 @@ img {
   margin: 1.6rem;
 }
 
-.technology-container
-.technology-item
-.article-image-container
-.cover-item-title
-.author-time {
+.technology-container .technology-item .article-image-container .cover-item-title .author-time {
   display: flex;
   color: gray;
   font-weight: bold;
