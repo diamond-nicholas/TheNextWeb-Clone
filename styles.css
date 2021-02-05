@@ -1,0 +1,1065 @@
+/* basic setup */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Teko:wght@300;500&family=Ubuntu:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/** more preferred styles */
+.main {
+  overflow-x: hidden;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+/* mobile nav */
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.17);
+}
+
+.mobile-nav-head img {
+  float: left;
+  height: 48px;
+}
+
+.mobile-nav-head img:hover {
+  cursor: pointer;
+}
+
+.mobile-nav-icons {
+  position: relative;
+  float: right;
+  right: -10px;
+}
+
+.mobile-nav-icons .fas {
+  font-size: 1.6rem;
+  padding: 16px;
+  margin-right: 16px;
+  border-left: 1px solid #eee;
+}
+
+.mobile-nav-icons .fa-bars {
+  color: #f42;
+}
+
+.mobile-nav-icons .fa-search {
+  color: gray;
+}
+
+.mobile-nav-icons .fa-search:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* desktop nav view */
+
+.desktop-nav {
+  display: none;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.desktop-nav .nav-top {
+  justify-content: space-between;
+  background-color: black;
+  color: gray;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.desktop-nav .nav-top:hover {
+  color: white;
+}
+
+.desktop-nav .nav-links {
+  padding: 0 0.5rem;
+}
+
+.menu {
+  display: none;
+  padding: 1rem 0.5rem;
+  position: sticky !important;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  color: gray;
+  background: white;
+  z-index: 10;
+}
+
+.menu .top-search {
+  padding-right: 1.5rem;
+  border-left: 1px solid #eee;
+}
+
+.menu .menu-left {
+  color: gray;
+  display: flex;
+  font-size: 1rem;
+}
+
+.deals a {
+  color: #f42;
+}
+
+.technology-item h2 a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 1.3rem;
+}
+
+.latest-session h2 a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 1.3rem;
+}
+
+.menu .menu-left a {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.menu .menu-left:hover {
+  color: black;
+}
+
+.img1 {
+  background-image: url("https://thenextweb.com/plugged/2020/12/08/supermarket-apple-watch-app-analysis-opinion/");
+}
+
+.all .latest-news .img1 {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+/* Main Cover board */
+.board {
+  padding-top: 60px;
+}
+
+.board-items {
+  position: relative;
+  padding: 4px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.board-items .image-container,
+.technology-item .image-container {
+  transition: background-color 0.4s ease;
+  cursor: pointer;
+}
+
+.board-items .board-image,
+.technology-item .cover-image {
+  width: 100%;
+  height: 220px;
+  z-index: 1;
+}
+
+.board-items .study {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/cyberlocks-730x422.jpg");
+}
+
+.board-items .cloud {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1-796x417.png");
+}
+
+.board-items .javascript {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-1-796x417.jpg");
+}
+
+.board-gradient {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.board-items .board-item-title {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.board-item-title h2,
+.board-item-title h5 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.baord-item-title h4,
+.board-item-title h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 2rem;
+}
+
+.board-item-title ul {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1.2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+.board-item-title .author-link:hover {
+  color: #eee;
+  font-size: 0.3rem;
+}
+
+.board-item-title i {
+  padding: 0.5rem 0.5rem;
+}
+
+.article-info {
+  color: white;
+  font-size: 0.3rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.board-item-title .article-info {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.board-items .white-logo {
+  display: none;
+}
+
+.article-content {
+  color: white;
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* latest news styles */
+
+.all .latest-session {
+  font-size: 1.6rem;
+  margin: 1.6rem;
+}
+
+.latest-session .latest-articles {
+  flex-direction: column;
+}
+
+.latest-session .latest-news {
+  margin-bottom: 2rem;
+}
+
+.latest-header {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: #f42;
+}
+
+.latest-header span {
+  color: #f42;
+}
+
+.latest-header span:hover {
+  color: #000;
+}
+
+.all .orange-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 1.3rem;
+}
+
+.all .orange-title:hover {
+  color: #000;
+}
+
+.tile {
+  margin-bottom: 1rem;
+  grid-template-columns: 12rem auto;
+  column-gap: 1.5rem;
+}
+
+.latest-session .latest-articles .latest-articles-elements .story-article .story-caption {
+  display: flex;
+  color: gray;
+}
+
+.footer-menu li {
+  padding: 0 1rem;
+  font-family: "Teko", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.footer-menu li:hover {
+  color: #fff;
+}
+
+.latest-session .latest-articles .latest-articles-elements .story-article .story-caption li {
+  padding-right: 0.5rem;
+}
+
+.tile .latest-image {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 9rem;
+}
+
+.tile .img-one {
+  background-image: url(./img/Pornhub.jpg);
+}
+
+.tile .img-two {
+  background-image: url(./img/l2.jpg);
+}
+
+.tile .img-three {
+  background-image: url(./img/l3.jpg);
+}
+
+.tile .img-four {
+  background-image: url(./img/l4.jpg);
+}
+
+.tile .img-five {
+  background-image: url(./img/l5.jpg);
+}
+
+.tile .img-six {
+  background-image: url(./img/l6.png);
+}
+
+.tile .img-seven {
+  background-image: url(./img/l7.png);
+}
+
+.tile .img-eight {
+  background-image: url(./img/l8.png);
+}
+
+/* latest funding styles */
+
+.latest-funding {
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 8px;
+  margin: 8px;
+}
+
+.latest-funding header {
+  flex-direction: column;
+}
+
+.latest-funding .funding-header-links {
+  flex-direction: column;
+}
+
+.latest-funding .header-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  font-weight: 100;
+  padding-top: 1.3rem;
+  line-height: 0;
+}
+
+.funding-container {
+  flex-flow: wrap;
+}
+
+.funding-container .last-funding-item {
+  display: none;
+}
+
+.funding-item {
+  padding: 8px 0;
+}
+
+.funding-item .funding-header {
+  background: rgba(255, 68, 34, 0.08);
+  height: 9rem;
+}
+
+.funding-item .fund-item-titles {
+  background: #f42;
+  color: #fff;
+  padding: 1rem 1.5rem 1rem 7.5rem;
+}
+
+.funding-item .funding-logo {
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  max-height: 60px;
+  margin: 1rem;
+  z-index: 5;
+  position: relative;
+  top: -43px;
+}
+
+.funding-item .funding-money {
+  position: relative;
+  top: -7rem;
+  left: 7.5rem;
+  height: auto;
+}
+
+.funding-item .funding-money h5 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+.funding-item .fund-item-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.funding-item .funding-tags i {
+  padding-right: 1rem;
+  color: #000;
+}
+
+.funding-item .funding-tags {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  line-height: 2rem;
+  border-bottom: 1px solid rgba(255, 67, 34, 0.589);
+  margin-bottom: 1.5rem;
+}
+
+.latest-header,
+.deals a:hover {
+  color: #000;
+}
+
+.legal-wrapper .legal-link a {
+  color: white;
+}
+
+.funding-item .funding-tags a:hover {
+  color: #000;
+}
+
+/* styles for technology card */
+
+.technology-container {
+  font-size: 1.6rem;
+  margin: 1.6rem;
+}
+
+.technology-container .technology-item .article-image-container .cover-item-title .author-time {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+}
+
+.technology-item .cover-item-title {
+  position: relative;
+  bottom: 13rem;
+  left: 1.5rem;
+  z-index: 3;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.technology-container .technology-item .article-image-container .cover-item-title {
+  color: white;
+  font-weight: bolder;
+}
+
+.technology-container .hard-fork {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fslackstock.jpg&signature=563912982746faa3ac299cf1576a3aa3");
+}
+
+.technology-container .apps {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnag_3e684c11.png&signature=d9f5af92fb7d65d0922d5f171b63d57b");
+}
+
+.technology-container .gear {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2FSnapdragon-888-Mockup.png&signature=c6208e7176cdd83eaa0e27427afa9bdc");
+}
+
+.technology-container .tech {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue-796x398.gif");
+}
+
+.technology-container .creative {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-796x417.jpg");
+}
+
+.technology-container .podium {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fgoogle-logo-podium.png&signature=7508777eee1fb9a39a65db1227be0b4a");
+}
+
+.technology-container .insights {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F12%2Fmeeting-leader-startup-gq.png&signature=2c9db485eca73eb5dd338d5a7bd93df3");
+}
+
+.technology-container .launch {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fhummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg&signature=801c1c148b502bad4b7ba67bc6417c3a");
+}
+
+.technology-container .distract {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F11%2Flucid-air-configurator-ray-tracing-car-future-ev-zerolight.jpg&signature=3a8658003cf3f92188923ab0528c18fb");
+}
+
+.article-image-container,
+.technology-item .image-container {
+  margin-top: 1rem;
+  width: 100%;
+  height: 22rem;
+}
+
+.technology-item {
+  margin-bottom: 1rem;
+}
+
+.tech-item-article {
+  position: relative;
+  top: 0.5rem;
+  width: 100%;
+}
+
+.tech-item-article header {
+  padding: 1rem;
+  color: #f42;
+  background: #fff4f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.tech-item-article .latest-title {
+  font-family: "Teko", sans-serif;
+}
+
+.tech-item-article .sub-image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-3-1.png");
+  width: 50%;
+  height: 10rem;
+}
+
+.tech-item-article .num1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey.jpg");
+}
+
+.tech-item-article .num2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/header-image-spotify-2020-wrapped.png");
+}
+
+.tech-item-article .num3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Samsung-Galaxy-Note-8.jpg");
+}
+
+.tech-item-article .num4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-1.jpg");
+}
+
+.tech-item-article .num5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png");
+}
+
+.tech-item-article .num6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq.png");
+}
+
+.tech-item-article .num7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/slackstock.jpg");
+}
+
+.tech-item-article .num8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg");
+}
+
+.tech-item-article .num9 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/meeting-leader-startup-gq-516x270.png");
+}
+
+/* lists below each tech item article */
+
+.styled-list li::before {
+  content: "•";
+  color: #f42;
+  position: relative;
+  top: 2rem;
+}
+
+.styled-list .styled-list-item {
+  margin-left: 2rem;
+  display: list-item;
+  list-style-position: outside;
+  font-family: Arial, sans-serif;
+  color: #555;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.3rem;
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* latest deals styles */
+
+.latest-deals-header {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tile .ld1 {
+  background-image: url(./img/ld1.jpeg);
+}
+
+.tile .ld2 {
+  background-image: url(./img/ld2.jpg);
+}
+
+.tile .ld3 {
+  background-image: url(./img/ld3.jpg);
+}
+
+.tile .ld4 {
+  background-image: url(./img/ld4.jpg);
+}
+
+.tile .ld5 {
+  background-image: url(./img/ld5.jpg);
+}
+
+.tile .ld6 {
+  background-image: url(./img/ld6.jpg);
+}
+
+.tile .ld7 {
+  background-image: url(./img/ld7.jpg);
+}
+
+.tile .ld8 {
+  background-image: url(./img/ld8.jpg);
+}
+
+/* The footer section */
+
+.footer {
+  width: 100%;
+}
+
+.footer-links {
+  background: #131313;
+}
+
+.footer-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.footer-links-social {
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.footer-links-social .fab,
+.footer-links-social .fas,
+.footer-links-social .far {
+  padding: 1rem;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.footer-links-social .fab:hover,
+.footer-links-social .fas:hover,
+.footer-links-social .far:hover {
+  background-color: #000;
+}
+
+.footer-menu {
+  justify-content: center;
+}
+
+.footer-legal {
+  background-color: #000;
+  color: #aaa;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-legal .logo-footer {
+  width: 6rem;
+  min-height: 5rem;
+}
+
+.legal-wrapper {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.legal-wrapper .logo-footer {
+  height: 1.8rem;
+}
+
+.legal-wrapper .legal-link {
+  align-items: center;
+  padding: 0.3rem 0;
+}
+
+.legal-link .svg-logo {
+  padding-left: 2px;
+}
+
+/** media query for desktop **/
+@media only screen and (min-width: 1024px) {
+  .desktop-nav {
+    display: inline-block;
+  }
+
+  .desktop-nav .nav-top {
+    display: flex;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .menu .menu-left {
+    position: relative;
+    left: -48.7rem;
+  }
+
+  /* cover */
+
+  .board {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 1rem;
+    padding-top: 2px;
+  }
+
+  .cover-one {
+    grid-column: 1/3;
+    grid-row: 1 / span 3;
+  }
+
+  .cover-one .date {
+    position: relative;
+    left: 82rem;
+    top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .cover-one .study {
+    height: 448px;
+  }
+
+  .cover-one .board-gradient {
+    height: 448px;
+    background-image:
+      linear-gradient(
+        rgba(235, 15, 15, 0.842),
+        rgba(0, 0, 0, 0.952)
+      );
+  }
+
+  .cover-one .board-item-title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .cover-one .article-section {
+    display: none;
+  }
+
+  .cover-one .white-logo {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    height: 8rem;
+    width: auto;
+  }
+
+  /** wrapper */
+
+  .all {
+    margin: 2rem 10rem;
+  }
+
+  /** latest **/
+
+  .latest-session .latest-articles {
+    grid-template-columns: repeat(4, auto);
+    gap: 2rem;
+  }
+
+  .tile {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  .tile .latest-image {
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  /** Funding **/
+
+  .latest-funding .funding-header-links {
+    flex-direction: row-reverse;
+  }
+
+  .latest-funding .funding-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-funding .funding-header .header-link {
+    padding: 0 0.6rem;
+  }
+
+  .latest-funding .funding-header .header-link:not(:last-child)::before {
+    content: " |  ";
+    color: #f42;
+  }
+
+  .funding-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 1rem;
+  }
+
+  .funding-container .last-funding-item {
+    display: block;
+  }
+
+  /** Technology Container ***/
+
+  .technology-container {
+    grid-template-columns: repeat(3, auto);
+    gap: 2rem;
+  }
+
+  .technology-container .tech-item-article {
+    top: 0.2rem;
+  }
+
+  .technology-container .cover-item-title h3 h5 a {
+    color: white;
+  }
+}
+
+/* setting media queries for tablet screens */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .desktop-nav {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .medium-logo {
+    background-image: url("./img/tnw-logo.png");
+    position: absolute;
+    top: 0;
+    height: 6rem;
+    width: 8rem;
+    z-index: 120;
+  }
+
+  .menu-left {
+    position: relative;
+    left: -2.5rem;
+    padding-left: 0;
+  }
+
+  .menu .top-search {
+    margin-right: 0;
+    margin-left: 11.5rem;
+  }
+
+  .nav-top .nav-left {
+    padding-left: 8.5rem;
+  }
+
+  .nav-top .nav-right {
+    padding-right: 11rem;
+  }
+
+  .sticky-logo {
+    background-image: url("./img/tnw-logo.png");
+    height: 3.5rem;
+    width: 8rem;
+    z-index: 119;
+    background-size: cover;
+  }
+
+  /** main cover board **/
+  .board {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 1rem;
+    padding-top: 2px;
+  }
+
+  .cover-one {
+    grid-column: 1/3;
+    grid-row: 1 / span 3;
+  }
+
+  .cover-one .date {
+    display: none;
+  }
+
+  .cover-one .study {
+    height: 448px;
+  }
+
+  .cover-one .board-gradient {
+    height: 448px;
+    background-image:
+      linear-gradient(
+        rgba(235, 15, 15, 0.842),
+        rgba(0, 0, 0, 0.952)
+      );
+  }
+
+  .cover-one .article-content {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .cover-one .article-section {
+    display: none;
+  }
+
+  .cover-one .white-logo {
+    display: none;
+  }
+
+  /** latest **/
+
+  .latest-session .latest-articles {
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+  }
+
+  .tile {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  .tile .latest-image {
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  /** funding **/
+  .funding-container {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    column-gap: 1rem;
+  }
+
+  /** Technology Container ***/
+
+  .technology-container {
+    grid-template-columns: auto auto;
+    gap: 2rem;
+  }
+}
